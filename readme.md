@@ -4,7 +4,7 @@
 
 ```BASH
 
-$ $ composer create-project --prefer-dist laravel/laravel studio
+$ composer create-project --prefer-dist laravel/laravel studio
 $ php artisan preset react
 $ composer require laravel/ui
 $ php artisan ui react --auth

@@ -1,8 +1,10 @@
 html, body {
-  background-color: #fff;
-  color: #636b6f;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200;
+  background-color: $body-bg;
+  color: $body-color;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-weight-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
   height: 100vh;
   margin: 0;
 }
@@ -36,7 +38,7 @@ html, body {
 }
 
 .links > a {
-  color: #636b6f;
+  color: $body-color;
   padding: 0 25px;
   font-size: 13px;
   font-weight: 600;
@@ -47,4 +49,9 @@ html, body {
 
 .m-b-md {
   margin-bottom: 30px;
+}
+
+// navbar
+.navbar-color {
+  color: $body-color !important;
 }
