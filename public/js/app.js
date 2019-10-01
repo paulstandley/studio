@@ -66236,7 +66236,9 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
         className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "React"));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        align: "center"
+      }, "I Love Louise"));
     }
   }]);
 

@@ -9,7 +9,7 @@ class MainReact extends Component {
     render() { 
         return ( 
         <React.Fragment className="container">
-            <h1>React</h1>
+            <h2 align="center">I Love Louise</h2>
         </React.Fragment>
          );
     }

@@ -31,7 +31,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Studio
+                    <header>
+                        <h1 class="welcome-h1">Studio</h1>
+                    </header>
                 </div>
             </div>
         </div>

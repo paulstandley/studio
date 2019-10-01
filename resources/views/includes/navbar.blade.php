@@ -1,7 +1,11 @@
 <nav class="navbar navbar-expand-md navbar-light bg-dark-gray shadow-sm navbar-color">
   <div class="container">
       <a class="navbar-brand" href="{{ url('/') }}">
-        <strong class="navbar-color">{{ config('app.name', 'Studio') }}</strong>
+        <header>
+            <h1 class="navbar-color header-h1">
+                <strong>{{ config('app.name', 'Studio') }}</strong>
+            </h1>
+        </header>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
           <span class="navbar-toggler-icon"></span>
