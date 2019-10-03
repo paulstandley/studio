@@ -66237,8 +66237,10 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        align: "center"
-      }, "I Love Louise"));
+        className: "mixer-h2"
+      }, "Mixers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
+        className: "main-mixer"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Yo")));
     }
   }]);
 

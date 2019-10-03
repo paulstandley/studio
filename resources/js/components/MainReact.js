@@ -9,7 +9,10 @@ class MainReact extends Component {
     render() { 
         return ( 
         <React.Fragment className="container">
-            <h2 align="center">I Love Louise</h2>
+            <h2 className="mixer-h2">Mixers</h2>
+            <main className="main-mixer">
+                <h3>Yo</h3>
+            </main>
         </React.Fragment>
          );
     }
