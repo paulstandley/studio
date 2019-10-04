@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Mixer4 from './Mixer4';
+import Mixer8 from './Mixer8';
 
 class MainReact extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = { 
+            mixer4: true,
+            mixer8: false
+         }
     }
     render() { 
         return ( 
@@ -12,6 +17,7 @@ class MainReact extends Component {
             <h2 className="mixer-h2">Mixers</h2>
             <main className="main-mixer">
                 <h3>Yo</h3>
+                { this.state.Mixer4 ? <Mixer4 /> : <Mixer8 /> }
             </main>
         </React.Fragment>
          );

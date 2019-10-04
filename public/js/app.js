@@ -66195,6 +66195,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Mixer4__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Mixer4 */ "./resources/js/components/Mixer4.js");
+/* harmony import */ var _Mixer8__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Mixer8 */ "./resources/js/components/Mixer8.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -66216,6 +66218,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
 var MainReact =
 /*#__PURE__*/
 function (_Component) {
@@ -66227,7 +66231,10 @@ function (_Component) {
     _classCallCheck(this, MainReact);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(MainReact).call(this, props));
-    _this.state = {};
+    _this.state = {
+      mixer4: true,
+      mixer8: false
+    };
     return _this;
   }
 
@@ -66240,7 +66247,7 @@ function (_Component) {
         className: "mixer-h2"
       }, "Mixers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
         className: "main-mixer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Yo")));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Yo"), this.state.Mixer4 ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Mixer4__WEBPACK_IMPORTED_MODULE_2__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Mixer8__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
     }
   }]);
 
@@ -66251,6 +66258,44 @@ function (_Component) {
 
 if (document.getElementById('mainreact')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainReact, null), document.getElementById('mainreact'));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/Mixer4.js":
+/*!*******************************************!*\
+  !*** ./resources/js/components/Mixer4.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Mixer4; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Mixer4() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mixer 4"));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/Mixer8.js":
+/*!*******************************************!*\
+  !*** ./resources/js/components/Mixer8.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Mixer8; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Mixer8() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "mixer 8");
 }
 
 /***/ }),
