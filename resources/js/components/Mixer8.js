@@ -3,7 +3,7 @@ import React from 'react';
 export default function Mixer8() {
   return (
     <React.Fragment>
-      mixer 8
+      <h3>Mixer 8</h3>
     </React.Fragment>
   )
 }

@@ -16,8 +16,7 @@ class MainReact extends Component {
         <React.Fragment className="container">
             <h2 className="mixer-h2">Mixers</h2>
             <main className="main-mixer">
-                <h3>Yo</h3>
-                { this.state.Mixer4 ? <Mixer4 /> : <Mixer8 /> }
+                { !this.state.Mixer4 ? <Mixer4 /> : <Mixer8 /> }
             </main>
         </React.Fragment>
          );

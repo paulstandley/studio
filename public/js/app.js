@@ -66247,7 +66247,7 @@ function (_Component) {
         className: "mixer-h2"
       }, "Mixers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
         className: "main-mixer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Yo"), this.state.Mixer4 ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Mixer4__WEBPACK_IMPORTED_MODULE_2__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Mixer8__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
+      }, !this.state.Mixer4 ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Mixer4__WEBPACK_IMPORTED_MODULE_2__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Mixer8__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
     }
   }]);
 
@@ -66295,7 +66295,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 function Mixer8() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "mixer 8");
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mixer 8"));
 }
 
 /***/ }),
