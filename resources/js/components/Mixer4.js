@@ -4,7 +4,7 @@ export default function Mixer4() {
   return (
     <React.Fragment>
       <h3>4 track mixer</h3>
-      <p>I am so tired</p>
+      <p>"A surplus of effort could overcome a deficit of confidence." —Sonia Sotomayor</p>
     </React.Fragment>
   )
 }

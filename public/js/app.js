@@ -66276,7 +66276,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 function Mixer4() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "4 track mixer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am so tired"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "4 track mixer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"A surplus of effort could overcome a deficit of confidence.\" \u2014Sonia Sotomayor"));
 }
 
 /***/ }),
