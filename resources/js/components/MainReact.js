@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Mixer4 from './Mixer4';
 import Mixer8 from './Mixer8';
+import Mixer12 from './Mixer12';
 
 class MainReact extends Component {
     constructor(props) {
         super(props);
         this.state = { 
             mixer4: true,
-            mixer8: false
+            mixer8: false,
+            mixer12: false
          }
     }
     render() { 
